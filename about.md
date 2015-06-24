@@ -9,7 +9,7 @@ permalink: /about/
 
 ### IRC Chat
 
-[![Visit our IRC channel](https://kiwiirc.com/buttons/irc.twitch.tv/timmytot666.png)](https://kiwiirc.com/client/irc.twitch.tv/?&theme=cli#timmytot666)
+[![Visit our IRC channel](https://kiwiirc.com/buttons/irc.twitch.tv/timmytot666.png)](https://kiwiirc.com/client/irc.web.gamesurge.net/?&theme=cli#timmytot666)
 
 ### Steam Page
 
