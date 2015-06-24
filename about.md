@@ -8,7 +8,7 @@ A placeholder for information about our company and our goals.
 
 ### More Information
 
-secondary information.
+Secondary Information
 
 ### Contact me
 
