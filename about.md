@@ -3,12 +3,9 @@ layout: page
 title: About
 permalink: /about/
 ---
+##Twitch Channel
 
-A placeholder for information about our company and our goals.
-
-### More Information
-
-Secondary Information
+www.twitch.tv/timmytot666
 
 ### Contact me
 
