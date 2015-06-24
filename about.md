@@ -5,7 +5,7 @@ permalink: /about/
 ---
 ##Twitch Channel
 
-[www.twitch.tv/timmytot666)]
+<a href="http://twitch.tv/timmytot666">timmytot666</a>
 
 ##Teamspeak Channel
 
