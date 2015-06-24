@@ -7,7 +7,7 @@ permalink: /about/
 
 <a href="http://twitch.tv/timmytot666">TimmyTot666</a>
 
-### IRC Chat
+### IRC Chat hosted @ irc.web.gamesurge.net
 
 [![Visit our IRC channel](https://kiwiirc.com/buttons/irc.twitch.tv/timmytot666.png)](https://kiwiirc.com/client/irc.web.gamesurge.net/?&theme=cli#timmytot666)
 
