@@ -3,14 +3,18 @@ layout: page
 title: About
 permalink: /about/
 ---
-##Twitch Channel
+### Twitch Channel
 
-<a href="http://twitch.tv/timmytot666">timmytot666</a>
+<a href="http://twitch.tv/timmytot666">TimmyTot666</a>
 
-##Teamspeak Channel
+### Steam Page
+
+<a href="http://steamcommunity.com/profiles/76561198044200599/">TimmyTot666</a>
+
+### Teamspeak Channel
 
 TBA
 
 ### Contact me
 
-[Timothy Beltran](mailto:timothybeltran515@gmail.com)
+[Timothy](mailto:timothybeltran515@gmail.com)
