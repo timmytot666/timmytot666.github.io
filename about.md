@@ -11,9 +11,9 @@ permalink: /about/
 
 [![IRC channel](https://kiwiirc.com/buttons/irc.twitch.tv/timmytot666.png)](https://kiwiirc.com/client/irc.web.gamesurge.net/?&theme=cli#timmytot666)
 
-### Mumble Server hosted @ cleanvoice.ru
+### Mumble Server
 
-<a href="mumble://mumble-us.cleanvoice.ru:45063?title=Root&version=1.2.0">Mumble Server</a>
+mumble-us.cleanvoice.ru:45063
 
 ### Steam Page
 
