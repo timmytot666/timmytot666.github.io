@@ -19,10 +19,6 @@ mumble-us.cleanvoice.ru:45063
 
 <a href="http://steamcommunity.com/profiles/76561198044200599/">TimmyTot666</a>
 
-### Teamspeak Channel
-
-TBA
-
 ### Contact me
 
-[Timothy](mailto:timothybeltran515@gmail.com)
+[Timothy](mailto:timothybeltran@linuxmail.org)
