@@ -1,8 +1,7 @@
 ---
 layout: post
-title: Introduction
+title: Services Available
 ---
-## Services available
 | Consulting    | Tech Support | Other     |
 | :---        |    :----:   |          ---: |
 | Hardware      | Websites       | Notarization(local only)  |
