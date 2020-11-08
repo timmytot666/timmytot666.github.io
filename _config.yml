@@ -3,10 +3,10 @@
 #
 
 # Name of your site (displayed in the header)
-name: Twitch.tv/timmytot666
+name: Technical Solutions
 
 # Short bio or description (displayed in the header)
-description: Gamer, Streamer, Tech guy.
+description: Gamer, Student, Tech guy.
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: http://timmytot666.github.io/images/logo.png
@@ -28,7 +28,7 @@ footer-links:
   rss: # just type anything here for a working RSS icon, make sure you set the "url" above!
   twitter:
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-  youtube: user/timmytot666 # channel/<your_long_string> or user/<user-name>
+  youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
   
 # Enter your Disqus shortname (not your username) to enable commenting on posts
