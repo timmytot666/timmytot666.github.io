@@ -3,22 +3,12 @@ layout: page
 title: About
 permalink: /about/
 ---
-### Twitch Channel
+I've been doing various IT work since 2013 independantly and with a few companies.  I can give you consults on anything from security cameras to home theater setups and everything in between.  If you need help deciding what kind of computer you need or what software can help save your company money Then I'm the man for the job.  I can troubleshoot software and hardware, I can teach you how to use programs.  I can make you a free website and show you how to make changes to it.  If you have any questions don't hesitate to ask.
 
-<a href="http://twitch.tv/timmytot666">TimmyTot666</a>
+Currently working on several websites, dedicated email servers, and a part time job as an auto paint tech.
 
-### IRC Chat hosted @ irc.web.gamesurge.net
-
-[![IRC channel](https://kiwiirc.com/buttons/irc.twitch.tv/timmytot666.png)](https://kiwiirc.com/client/irc.web.gamesurge.net/?&theme=cli#timmytot666)
-
-### Mumble Server
-
-mumble-us.cleanvoice.ru:45063
-
-### Steam Page
-
-<a href="http://steamcommunity.com/profiles/76561198044200599/">TimmyTot666</a>
+Also local notary for Illinois Available
 
 ### Contact me
 
-[Timothy](mailto:timothybeltran@linuxmail.org)
+[Timothy](mailto:timothy.beltran@protonmail.com)
