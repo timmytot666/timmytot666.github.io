@@ -18,21 +18,21 @@ html {
 }
 
 body {
-	background: $white;
+	background: $darkBackground;
   font: 18px/1.4 $helvetica;
-  color: $darkGray;
+  color: $lightText; // Default text color for dark theme
 }
 
 .container {
   margin: 0 auto;
-  max-width: 740px;
-  padding: 0 10px;
+  max-width: 800px; // Slightly wider for modern displays
+  padding: 0 20px; // More padding
   width: 100%;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
-  color: $darkerGray;
+  color: $lightText; // Headings color for dark theme
   font-weight: bold;
 
   line-height: 1.7;
@@ -45,35 +45,36 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 32px; // Slightly larger
   a {
     color: inherit;
   }
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 26px; // Slightly larger
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 22px; // Slightly larger
 }
 
 h4 {
   font-size: 18px;
-  color: $gray;
+  color: $mediumText; // Softer color for h4
 }
 
 p {
   margin: 15px 0;
+  color: $lightText; // Ensure paragraphs are light
 }
 
 a {
-  color: $blue;
+  color: $accentColor; // Use accent color for links
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $blue;
+    color: lighten($accentColor, 10%); // Lighten on hover
   }
 }
 
@@ -108,6 +109,7 @@ strong, b {
 
 img {
   max-width: 100%;
+  height: auto; // Ensure aspect ratio is maintained
 }
 
 // Fixes images in popup boxes from Google Translate
@@ -117,25 +119,32 @@ img {
 
 .date {
   font-style: italic;
-  color: $gray;
+  color: $mediumText; // Use medium text for dates
 }
 
 // Specify the color of the selection
 ::-moz-selection {
-  color: $black;
-  background: $lightGray;
+  color: $darkBackground; // Text color during selection for dark theme
+  background: $accentColor; // Background color during selection
 }
 ::selection {
-  color: $black;
-  background: $lightGray;
+  color: $darkBackground; // Text color during selection for dark theme
+  background: $accentColor; // Background color during selection
+}
+
+hr { // Basic hr style for dark theme
+  border: 0;
+  height: 1px;
+  background: $borderColor;
+  margin: 2em 0;
 }
 
 // Nicolas Gallagher's micro clearfix hack
 // http://nicolasgallagher.com/micro-clearfix-hack/
 .clearfix:before,
 .clearfix:after {
-    content: " ";
-    display: table;
+    content: " "; /* 1 */
+    display: table; /* 2 */
 }
 
 .clearfix:after {
@@ -151,59 +160,72 @@ img {
 //
 
 .wrapper-masthead {
-  margin-bottom: 50px;
+  margin-bottom: 40px; // Slightly reduced margin
+  background-color: $headerFooterBackground; // Dark background for masthead
 }
 
 .masthead {
-  padding: 20px 0;
-  border-bottom: 1px solid $lightGray;
+  padding: 25px 0; // Increased padding
+  border-bottom: 1px solid $borderColor; // Use dark theme border color
+  display: flex; // Use flexbox for alignment
+  justify-content: space-between;
+  align-items: center;
 
   @include mobile {
+    flex-direction: column; // Stack elements on mobile
     text-align: center;
   }
 }
 
 .site-avatar {
-  float: left;
-  width: 70px;
-  height: 70px;
+  // float: left; // Removed float
+  width: 60px; // Slightly smaller avatar
+  height: 60px;
   margin-right: 15px;
 
   @include mobile {
-    float: none;
-    display: block;
-    margin: 0 auto;
+    // float: none; // Removed float
+    // display: block; // Not needed with flex
+    margin: 0 auto 10px; // Center avatar on mobile
   }
 
   img {
-    border-radius: 5px;
+    border-radius: 50%; // Circular avatar
   }
 }
 
 .site-info {
-  float: left;
+  // float: left; // Removed float
+  flex-grow: 1; // Allow site-info to take available space
 
   @include mobile {
-    float: none;
-    display: block;
-    margin: 0 auto;
+    // float: none; // Removed float
+    // display: block; // Not needed with flex
+    // margin: 0 auto; // Center site-info on mobile
+    text-align: center;
   }
 }
 
 .site-name {
   margin: 0;
-  color: $darkGray;
+  color: $lightText; // Use light text for site name
   cursor: pointer;
   font-family: $helveticaNeue;
   font-weight: 300;
-  font-size: 28px;
+  font-size: 26px; // Slightly smaller site name
   letter-spacing: 1px;
+  a {
+    color: $lightText; // Ensure link color is also light
+    &:hover, &:active {
+      color: $accentColor; // Accent on hover
+    }
+  }
 }
 
 .site-description {
   margin: -5px 0 0 0;
-  color: $gray;
-  font-size: 16px;
+  color: $mediumText; // Use medium text for description
+  font-size: 15px; // Slightly smaller
 
   @include mobile {
     margin: 3px 0;
@@ -211,28 +233,31 @@ img {
 }
 
 nav {
-  float: right;
-  margin-top: 23px; // @TODO: Vertically middle align
+  // float: right; // Removed float
+  // margin-top: 23px; // Align with flex `align-items: center`
   font-family: $helveticaNeue;
-  font-size: 18px;
+  font-size: 16px; // Slightly smaller nav font
 
   @include mobile {
-    float: none;
-    margin-top: 9px;
-    display: block;
-    font-size: 16px;
+    // float: none; // Removed float
+    margin-top: 15px; // Space above nav on mobile
+    // display: block; // Not needed with flex
+    // font-size: 16px;
   }
 
   a {
     margin-left: 20px;
-    color: $darkGray;
+    color: $lightText; // Light text for nav links
     text-align: right;
     font-weight: 300;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px; // Reduced letter spacing
 
     @include mobile {
       margin: 0 10px;
-      color: $blue;
+      // color: $accentColor; // Already good for mobile, or keep $lightText
+    }
+    &:hover, &:active {
+      color: $accentColor; // Accent on hover
     }
   }
 }
@@ -241,9 +266,14 @@ nav {
 // .main
 //
 
+#main { // Added for potential specific main content styling
+  padding-top: 30px; // Add some space above content
+  padding-bottom: 30px; // Add some space below content
+}
+
 .posts > .post {
-  padding-bottom: 2em;
-  border-bottom: 1px solid $lightGray;
+  padding-bottom: 2.5em; // Increased padding
+  border-bottom: 1px solid $borderColor; // Dark theme border
 }
 
 .posts > .post:last-child {
@@ -254,36 +284,73 @@ nav {
 .post {
   blockquote {
     margin: 1.8em .8em;
-    border-left: 2px solid $gray;
-    padding: 0.1em 1em;
-    color: $gray;
-    font-size: 22px;
+    border-left: 3px solid $accentColor; // Thicker, accent border
+    padding: 0.5em 1.2em; // Adjust padding
+    color: $mediumText; // Medium text for blockquotes
+    font-size: 20px; // Slightly smaller blockquote font
     font-style: italic;
+    background: darken($darkBackground, 3%); // Subtle background for blockquote
   }
 
   .comments {
-    margin-top: 10px;
+    margin-top: 20px; // More space above comments
   }
 
   .read-more {
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 14px; // Slightly smaller
+    font-weight: bold; // Make it bolder
+    color: $accentColor;
+     &:hover, &:active {
+      color: lighten($accentColor, 10%);
+    }
   }
 }
 
 .wrapper-footer {
-  margin-top: 50px;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
+  margin-top: 40px; // Reduced margin
+  border-top: 1px solid $borderColor;
+  // border-bottom: 1px solid $borderColor; // Not really needed, can be removed
+  background-color: $headerFooterBackground; // Dark background for footer
 }
 
 footer {
-  padding: 20px 0;
+  padding: 30px 0; // Increased padding
   text-align: center;
+  p, a { // Ensure text in footer is also styled for dark theme
+    color: $mediumText;
+  }
+  a:hover {
+    color: $accentColor;
+  }
 }
+
+// SVG icons in footer
+.svg-icon {
+  fill: $mediumText; // Default fill color for SVGs
+  &:hover {
+    fill: $accentColor; // Change fill on hover
+  }
+}
+
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
 @import "svg-icons";
+
+// Custom styles for syntax highlighting in dark mode
+.highlight {
+  background-color: $darkerGray; // Dark background for code blocks
+  border: 1px solid $borderColor;
+  padding: 10px 15px; // Adjust padding
+  // margin: 20px 0 20px 0; // Already defined, keep or adjust if necessary
+  // overflow: scroll; // Already defined
+
+  code {
+    color: $lightText; // Default code text color
+  }
+  // Optional: Invert or adjust some specific highlight colors if they don't contrast well
+  // Example:
+  // .c { color: #7f8c8d; } // Comment color - adjust if #586E75 is too dark
+}
