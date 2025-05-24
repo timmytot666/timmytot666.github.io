@@ -4,7 +4,7 @@ title: Services Available
 ---
 | Consulting    | Tech Support | Other     |
 | :---        |    :----:   |          ---: |
-| Hardware      | Websites       | Notarization(local only)  |
+| Hardware      | Websites       | Hosting  |
 | Software   | Hosting        | Custom Auto Paint     |
 | Security   | Upgrades   | Music Lessons  |
 | Small Business Savings   | Troubleshooting | Fire Sticks |
