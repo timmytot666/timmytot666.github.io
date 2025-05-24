@@ -4,15 +4,23 @@
 //
 
 // Colors
-$blue: #4183C4;
+$blue: #4183C4; // Original blue, keep for reference or specific uses
 
-// Grays
+// Dark Theme Colors
+$darkBackground: #2c3e50; // Dark slate blue
+$headerFooterBackground: #1a252f; // Slightly darker slate blue
+$lightText: #ecf0f1; // Light silver
+$mediumText: #bdc3c7; // Lighter silver for secondary text
+$accentColor: #3498db; // Bright blue for links
+$borderColor: #34495e; // Darker blue-gray for borders
+
+// Grays (original, can be repurposed or removed if not needed)
 $black: #000;
-$darkerGray: #222;
-$darkGray: #333;
+$darkerGray: #222; // Could be an alternative dark bg or component bg
+$darkGray: #333;   // Could be an alternative dark bg or component bg
 $gray: #666;
-$lightGray: #eee;
-$white: #fff;
+$lightGray: #eee;  // Could be used for light elements on dark bg if needed
+$white: #fff;      // Original white, keep for reference
 
 // Font stacks
 $helvetica: Helvetica, Arial, sans-serif;
